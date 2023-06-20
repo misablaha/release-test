@@ -36,9 +36,9 @@ jobs:
         with:
           registry: gcr.io
           # username: oauth2accesstoken
-          # password: ${{ steps.auth.outputs.access_token }}
+          password: ${{ steps.auth.outputs.access_token }}
           username: _json_key
-          password: ${{ secrets.GOOGLE_CREDENTIALS }}
+          # password: ${{ secrets.GOOGLE_CREDENTIALS }}
 
       - name: Docker meta
         id: meta
@@ -53,7 +53,7 @@ jobs:
             type=sha
 
       - name: Build and Push
-        uses: docker/build-push-action@v2
+        uses: docker/build-push-action@v4
         with:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
