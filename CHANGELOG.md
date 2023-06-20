@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.2.1](https://github.com/misablaha/release-test/compare/v1.2.0...v1.2.1) (2023-06-20)
+
+
+### Bug Fixes
+
+* CI/CD ([825abe7](https://github.com/misablaha/release-test/commit/825abe707867f5ccbcc88d0c1775f386ef9f60b9))
+* CI/CD ([3f6e2a5](https://github.com/misablaha/release-test/commit/3f6e2a5df9bf22a198b49a774a073a08386b17a4))
+* CI/CD ([9ad3dbe](https://github.com/misablaha/release-test/commit/9ad3dbe8b9a9e40f054f14dc86305a6f50e3720c))
+* CI/CD ([0198fbd](https://github.com/misablaha/release-test/commit/0198fbd57ef95e9c52b83855ca9fa5eb61e69e16))
+
 ## [1.2.0](https://github.com/misablaha/release-test/compare/v1.1.13...v1.2.0) (2023-06-20)
 
 
