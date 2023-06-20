@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/misablaha/release-test/compare/v1.1.13...v1.2.0) (2023-06-20)
+
+
+### Features
+
+* change message ([#16](https://github.com/misablaha/release-test/issues/16)) ([c769869](https://github.com/misablaha/release-test/commit/c76986907efe4570dbed86e18109f96091dc1408))
+
 ## [1.1.13](https://github.com/misablaha/release-test/compare/v1.1.12...v1.1.13) (2023-06-20)
 
 
