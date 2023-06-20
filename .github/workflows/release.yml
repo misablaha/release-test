@@ -36,5 +36,14 @@ jobs:
       contents: read
       id-token: write
     steps:
-      - name: test
-        run: echo '${{ toJson(needs.version.outputs) }}'
+      - name: Docker meta
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          images: |
+            gcr.io/til-playground-338907/release-test
+          tags: |
+            type=semver,pattern={{version}},value=${{ needs.version.outputs.tag_name }}
+            type=semver,pattern={{major}}.{{minor}},value=${{ needs.version.outputs.tag_name }}
+            type=semver,pattern={{major}},value=${{ needs.version.outputs.tag_name }}
+            type=sha
