@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v1
+        uses: docker/setup-buildx-action@v2
 
       # @see: https://github.com/google-github-actions/auth#configuring-gcloud
       - id: 'auth'
@@ -36,9 +36,9 @@ jobs:
         with:
           registry: gcr.io
           # username: oauth2accesstoken
-          password: ${{ steps.auth.outputs.access_token }}
+          # password: ${{ steps.auth.outputs.access_token }}
           username: _json_key
-          # password: ${{ secrets.GOOGLE_CREDENTIALS }}
+          password: ${{ secrets.GOOGLE_CREDENTIALS }}
 
       - name: Docker meta
         id: meta
