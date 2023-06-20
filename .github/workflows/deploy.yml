@@ -45,7 +45,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            gcr.io/{{env.PROJECT_ID}}/${GITHUB_REPOSITORY#*/}
+            gcr.io/til-playground-338907/release-test
           tags: |
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
