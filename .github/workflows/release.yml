@@ -24,7 +24,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: version
-    if: ${{ needs.version.outputs.release }}
+    if: ${{ needs.version.outputs.releases_created }}
     permissions:
       contents: read
       id-token: write
