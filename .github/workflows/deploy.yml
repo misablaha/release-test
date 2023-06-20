@@ -1,9 +1,8 @@
-name: release
+name: deploy
 
 on:
-  push:
-    tags:
-      - v*
+  release:
+    types: [ published ]
 
 jobs:
   docker:
