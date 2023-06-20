@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/misablaha/release-test/compare/v1.1.4...v1.1.5) (2023-06-20)
+
+
+### Bug Fixes
+
+* setup CI ([d0c0ec4](https://github.com/misablaha/release-test/commit/d0c0ec400fc963005b05e2c78fc4c04afa7dfd36))
+
 ## [1.1.4](https://github.com/misablaha/release-test/compare/v1.1.3...v1.1.4) (2023-06-20)
 
 
