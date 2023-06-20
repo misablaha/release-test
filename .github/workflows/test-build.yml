@@ -1,4 +1,4 @@
-name: test-build
+name: manual-docker-build
 
 on:
   workflow_dispatch
