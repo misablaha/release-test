@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/misablaha/release-test/compare/v1.2.2...v1.2.3) (2023-07-03)
+
+
+### Bug Fixes
+
+* docker testing ([6af7dc2](https://github.com/misablaha/release-test/commit/6af7dc22f9ac6fc8195b274bafee8e1e7f313b4d))
+
 ## [1.2.2](https://github.com/misablaha/release-test/compare/v1.2.1...v1.2.2) (2023-06-21)
 
 
