@@ -1,1 +1,1 @@
-exports.hello = () => 'Hello Relativity again!'
+exports.hello = () => 'Hello Relativity one!'
